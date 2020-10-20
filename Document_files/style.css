@@ -1,0 +1,33 @@
+body {
+    background: lightgrey;
+}
+
+.notes {
+    background: #d3d0d0; color: rgb(49, 175, 163);
+}
+.headers-descriptions {
+    background: #d3d0d0; color: rgb(49, 175, 163)e;
+}
+
+.main-header {
+    background: blueviolet;
+}
+
+.nav-header {
+    color: white; background: black;
+}
+
+.main-description {
+    background: #d3d0d0; color: rgb(49, 175, 163);
+} 
+
+.image {
+    background: #d3d0d0; color: rgb(49, 175, 163);
+}
+.footer{
+    background: #d3d0d0; color: rgb(49, 175, 163);
+}
+
+.go-biogram {
+    background:#d3d0d0;
+} 
