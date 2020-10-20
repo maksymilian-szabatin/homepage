@@ -10,15 +10,15 @@ body {
 }
 
 .main-header {
-    background: blueviolet;
+    background: #d3d0d0;
 }
 
 .nav-header {
     color: white; background: black;
 }
 
-.main-description {
-    background: #d3d0d0; color: rgb(49, 175, 163);
+.article-text {
+    background: #d3d0d0; color: black;
 } 
 
 .image {
