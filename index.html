@@ -1,79 +1,80 @@
 <!DOCTYPE html>
 <html lang="pl">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link href="style.css" rel="stylesheet" type="text/css">
-</head>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+  </head>
 
-<body>
+  <body>
     <header>
-        <nav class="nav-header">
-            <a class="nav-header" href="index.html">Strona główna</a>
-            <a class="nav-header" href="index2.html">Biogram</a>
-            <a class="nav-header" href="index3.html">Nauka HTML</a>
-            <a class="nav-header" href="index4.html">Pełne notatki</a>
-        </nav>
+      <nav class="nav-header">
+        <a class="nav-header" href="index.html">Strona główna</a>
+        <a class="nav-header" href="index2.html">Biogram</a>
+        <a class="nav-header" href="index3.html">Nauka HTML</a>
+        <a class="nav-header" href="index4.html">Pełne notatki</a>
+      </nav>
     </header>
 
     <main>
+      <header class="main-header" id="top">
+        <h1>Maks Szabatin - Strona domowa stworzona w ramach kursu WTF.</h1>
+      </header>
 
-        <header class="main-header" id="top">
-            <h1>Maks Szabatin - Strona domowa stworzona w ramach kursu WTF.</h1>
-        </header>
+      <section class="image">
+        <h2>Kim jestem?</h2>
+        <p><a href="#bottom">Idź na dół strony.</a></p>
 
-        <section class="image">
+        <img src="maks-strona.jpg" alt="moje zdjęcie" />
+        <p class="article-text">
+          Jestem studentem 1 roku na kierunku Azjatyka na uniwersytecie SWPS, w
+          Warszawie.<br />
+          Lubię robić zdjęcia i kręcić filmy.Biorę udział w szkoleniu WTF.
+          <a href="#notatki">Przejdź do notatek.</a>
+        </p>
+        <a class="go-biogram" href="index2.html">Zobacz pełny Biogram</a>
+      </section>
 
-            <h2>Kim jestem? </h2>
-            <p><a href="#bottom">Idź na dół strony.</a></p>
+      <section class="notes" id="notatki">
+        <h2>Notatki z HTML</h2>
+        <article class="headers-descriptions">
+          <h3>Jak stworzyć HTMLa?</h3>
+          <p class="article-text">
+            Rozpoczynam kurs i mam nadzieje ze naucze sie dobrze pisac w jezyku
+            html.
+          </p>
+        </article>
 
-            <img src="maks-strona.jpg" alt="moje zdjęcie" />
-            <p class="article-text">Jestem studentem 1 roku na kierunku Azjatyka na uniwersytecie SWPS, w
-                Warszawie.<br>
-                Lubię robić zdjęcia i
-                kręcić filmy.Biorę udział w szkoleniu WTF. <a href="#notatki">Przejdź do notatek.</a> </p>
-            <a class="go-biogram" href="index2.html">Zobacz pełny Biogram</a>
+        <article class="headers-descriptions">
+          <h3>Czy Kurs to trudna sprawa?</h3>
+          <p class="article-text">
+            Tak, bo uczysz sie sam, najwazniejsze jest samozaparcie, motywacja i
+            systematyka.
+          </p>
+        </article>
 
-        </section>
+        <article class="headers-descriptions">
+          <h3>Odrabianie pracy domowej</h3>
+          <p class="article-text">Poszlo calkiem spoko</p>
+        </article>
 
-        <section class="notes" id="notatki">
-            <h2>Notatki z HTML</h2>
-            <article class="headers-descriptions">
-                <h3>Jak stworzyć HTMLa?</h3>
-                <p class="article-text">Rozpoczynam kurs i mam nadzieje ze naucze sie dobrze pisac w jezyku html.</p>
-            </article>
-
-            <article class="headers-descriptions">
-                <h3>Czy Kurs to trudna sprawa?</h3>
-                <p class="article-text">Tak, bo uczysz sie sam, najwazniejsze jest samozaparcie, motywacja i
-                    systematyka.</p>
-            </article>
-
-            <article class="headers-descriptions">
-                <h3> Odrabianie pracy domowej</h3>
-                <p class="article-text">Poszlo calkiem spoko</p>
-            </article>
-
-            <article class="headers-descriptions">
-                <h3>Postępy w kursie.</h3>
-                <p class="article-text">Aktualnie aktualizuję stronę w nową wiedzę związaną z HTML i CSS.<a
-                        class="go-biogram" href="index3.html">Zobacz wszystkie notatki</a></p>
-
-            </article>
-
-
-        </section>
-
-
-
+        <article class="headers-descriptions">
+          <h3>Postępy w kursie.</h3>
+          <p class="article-text">
+            Aktualnie aktualizuję stronę w nową wiedzę związaną z HTML i CSS.<a
+              class="go-biogram"
+              href="index3.html"
+              >Zobacz wszystkie notatki</a
+            >
+          </p>
+        </article>
+      </section>
     </main>
     <footer class="footer" id="bottom">
-        Strona domowa Maks Szabatin w ramach kursu. <a href="#top">Wróć na górę strony.</a>
+      Strona domowa Maks Szabatin w ramach kursu.
+      <a href="#top">Wróć na górę strony.</a>
     </footer>
     <script src="main.js "></script>
-
-</body>
-
+  </body>
 </html>

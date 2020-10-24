@@ -3,10 +3,13 @@ body {
 }
 
 .notes {
-    background: #d3d0d0; color: rgb(49, 175, 163);
+    background: #d3d0d0;
+    color: rgb(49, 175, 163);
 }
+
 .headers-descriptions {
-    background: #d3d0d0; color: rgb(49, 175, 163);
+    background: #d3d0d0;
+    color: rgb(49, 175, 163);
 }
 
 .main-header {
@@ -14,20 +17,25 @@ body {
 }
 
 .nav-header {
-    color: white; background: black;
+    color: white;
+    background: black;
 }
 
 .article-text {
-    background: #d3d0d0; color: black;
-} 
+    background: #d3d0d0;
+    color: black;
+}
 
 .image {
-    background: #d3d0d0; color: rgb(49, 175, 163);
+    background: #d3d0d0;
+    color: rgb(49, 175, 163);
 }
-.footer{
-    background: #d3d0d0; color: rgb(49, 175, 163);
+
+.footer {
+    background: #d3d0d0;
+    color: rgb(49, 175, 163);
 }
 
 .go-biogram {
-    background:#d3d0d0;
-} 
+    background: #d3d0d0;
+}
