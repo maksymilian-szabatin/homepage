@@ -1,41 +1,55 @@
+
 body {
-    background: lightgrey;
-}
-
-.notes {
-    background: #d3d0d0;
-    color: rgb(49, 175, 163);
-}
-
-.headers-descriptions {
-    background: #d3d0d0;
-    color: rgb(49, 175, 163);
-}
-
-.main-header {
     background: #d3d0d0;
 }
 
-.nav-header {
+
+.navigation {
+    background: rgb(11, 134, 93);
+    padding: 16px;
+    border-radius: 10px;
+}
+
+.navigation__link {
     color: white;
-    background: black;
+    display: inline-block;
+    margin: 7px;
 }
 
-.article-text {
-    background: #d3d0d0;
-    color: black;
+.page__footer {
+    
+    color: rgb(139, 3, 3);
 }
 
-.image {
-    background: #d3d0d0;
+.page__title {
+    color: #3e049c
+}
+
+.page__title--description {
+    color: rgb(139, 3, 3)
+}
+
+.page__title--special{ 
     color: rgb(49, 175, 163);
 }
 
-.footer {
-    background: #d3d0d0;
-    color: rgb(49, 175, 163);
+
+
+.section__title {
+    
+    color: rgb(33, 133, 123);
 }
 
-.go-biogram {
-    background: #d3d0d0;
+.week-summary{
+    padding: 16px;
+    border: #e2dddd solid;
+    margin-bottom: 16px;
+}
+
+.week-summary__description {
+    color: rgb(139, 3, 3);
+}
+
+.week-summary__title {
+    color:rgb(33, 133, 123) ;
 }

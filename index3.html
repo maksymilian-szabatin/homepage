@@ -9,48 +9,48 @@
 
   <body>
     <header>
-      <nav class="nav-header">
-        <a class="nav-header" href="index.html">Strona główna</a>
-        <a class="nav-header" href="index2.html">Biogram</a>
-        <a class="nav-header" href="index3.html">Nauka HTML</a>
-        <a class="nav-header" href="index4.html">Pełne notatki</a>
-      </nav>
+        <nav class="navigation">
+            <a class="navigation__link--homepage" href="index.html">Strona główna</a>
+            <a class="navigation__link" href="index2.html">Biogram</a>
+            <a class="navigation__link" href="index3.html">Nauka HTML</a>
+            <a class="navigation__link" href="index4.html">Pełne notatki</a>
+          </nav>
     </header>
 
     <main>
-      <header class="main-header" id="top">
+      <header class="page__title" id="top">
         <h1>Nauka HTML</h1>
       </header>
 
-      <section class="headers-descriptions" id="notatki">
-        <h2>Notatki z kursu</h2>
+      <section id="notatki">
+        <h2 class="page__title--special">Notatki z kursu</h2>
         <p><a href="#bottom">Idź na dół strony.</a></p>
         <img src="html-logo.jpg" alt="logo kursu" />
-        <a class="go-biogram" href="index4.html">Zobacz wszystkie notatki</a>
+        <a href="index4.html">Zobacz wszystkie notatki</a>
 
-        <article class="headers-descriptions">
-          <h3>Moje ulubione TAGI</h3>
-          <p class="article-text">H3 to jest mój ulubiony nagłówek</p>
+        <article class="week-summary">
+          <h3 class="week-summary__title">Moje ulubione TAGI</h3>
+          <p class="week-summary__description">H3 to jest mój ulubiony nagłówek</p>
         </article>
 
-        <article class="headers-descriptions">
-          <h3>Jak stworzyć HTMLa?</h3>
-          <p class="article-text">
+        <article class="week-summary">
+          <h3 class="week-summary__title">Jak stworzyć HTMLa?</h3>
+          <p class="week-summary__description">
             Rozpoczynam kurs i mam nadzieje ze naucze sie dobrze pisac w jezyku
             html.
           </p>
         </article>
 
-        <article class="headers-descriptions">
-          <h3>Czy Kurs to trudna sprawa?</h3>
-          <p class="article-text">
+        <article class="week-summary">
+          <h3 class="week-summary__title">Czy Kurs to trudna sprawa?</h3>
+          <p class="week-summary__description">
             Tak, bo uczysz sie sam, najwazniejsze jest samozaparcie, motywacja i
             systematyka.
           </p>
         </article>
       </section>
     </main>
-    <footer class="footer" id="bottom">
+    <footer class="page__footer" id="bottom">
       Strona domowa Maks Szabatin w ramach kursu.
       <a href="#top">Wróć na górę strony.</a>
     </footer>
