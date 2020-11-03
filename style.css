@@ -3,6 +3,11 @@ body {
     background: #d3d0d0;
 }
 
+.main {
+    max-width: 600px;
+   margin: 0 auto;
+}
+
 
 .navigation {
     background: rgb(11, 134, 93);
@@ -28,6 +33,8 @@ body {
 .page__title--description {
     color: rgb(139, 3, 3)
 }
+
+
 
 .page__title--special{ 
     color: rgb(49, 175, 163);
